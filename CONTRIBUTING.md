@@ -1,3 +1,5 @@
+# Contributing to our Community Bot
+
 Thank you for considering contributing to our project!
 
 To be eligible to contribute, make sure to join our Discord Server (currently closed),
