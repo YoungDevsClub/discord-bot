@@ -23,7 +23,7 @@ class AutoRoleCog(Cog):
             await member.add_roles(member_role)
 
     @staticmethod
-    async def _get_role(guild: discord.Guild, role_id: int) -> discord.Role:
+    async def _get_role(guild: discord.Guild, role_id: int) -> discord.Role | None:
         return await guild._fetch_role(role_id)  # noqa
 
 
